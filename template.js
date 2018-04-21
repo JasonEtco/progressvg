@@ -2,7 +2,7 @@ module.exports = (progress, max, options) => {
   const opts = {
     background: '#EEEEEE',
     foreground: '#34d058',
-    fontFaimly: '-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif',
+    fontFamily: '-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif',
     width: 668,
     height: 6,
     paddingX: 17,
