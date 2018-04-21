@@ -1,4 +1,4 @@
-module.exports = (progress, max, options) => {
+module.exports = (progress = 0, max = 10, options = {}) => {
   const opts = {
     background: '#EEEEEE',
     foreground: '#34d058',
