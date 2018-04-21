@@ -2,7 +2,7 @@ module.exports = (progress, max, options) => {
   const opts = {
     background: '#EEEEEE',
     foreground: '#34d058',
-    width: 448,
+    width: 668,
     height: 6,
     paddingX: 17,
     paddingY: 10,
