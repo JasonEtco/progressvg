@@ -1,6 +1,6 @@
 # [WIP] progressvg
 
-![Progress, 2/10](https://progressvg.herokuapp.com/progress?p=2&m=10)
+![Progress, 1/10](https://progressvg.herokuapp.com/progress?p=1&m=10)
 ![Progress, 5/10](https://progressvg.herokuapp.com/progress?p=5&m=10)
 ![Progress, 10/10](https://progressvg.herokuapp.com/progress?p=10&m=10)
 
