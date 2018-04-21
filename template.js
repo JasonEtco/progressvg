@@ -11,7 +11,7 @@ module.exports = (progress, max, options) => {
 
   const percentage = Math.floor((progress / max) * 100)
 
-  return `<svg width="${opts.width}px" height="58px" viewBox="0 0 ${opts.width} 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  return `<svg width="${opts.width - opts.paddingX}px" height="58px" viewBox="0 0 ${opts.width - opts.paddingX} 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
       <g id="poll">
           <g id="Group" transform="translate(${opts.paddingX}.000000, ${opts.paddingY}.000000)">
@@ -22,7 +22,7 @@ module.exports = (progress, max, options) => {
               <text id="Option-A" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif" font-size="12" font-weight="bold" letter-spacing="1" fill="#212529">
                 <tspan x="0" y="12">Progress</tspan>
               </text>
-              <text x="${opts.width - opts.paddingX}" y="12" id="150" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif" font-size="12" font-weight="normal" letter-spacing="1" fill="#868E96">
+              <text x="${opts.width - (opts.paddingX * 2)}" y="12" id="150" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif" font-size="12" font-weight="normal" letter-spacing="1" fill="#868E96">
                 <tspan>${progress} of ${max}</tspan>
               </text>
           </g>
