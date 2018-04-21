@@ -15,3 +15,7 @@ Progress bars as SVGs as a service. You can use this in GitHub issues:
 ## Usage as an express route
 
 [Coming soon]
+
+---
+
+_Inspired by [gh-polls](https://github.com/apex/gh-polls)_
