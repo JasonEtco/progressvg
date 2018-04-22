@@ -1,7 +1,7 @@
 # [WIP] progressvg
 
-![Progress, 1/10](https://progressvg.herokuapp.com/progress?p=1&m=10)
-![Progress, 5/10](https://progressvg.herokuapp.com/progress?p=5&m=10)
+![Progress, 2/10](https://progressvg.herokuapp.com/progress?p=2&m=10)
+![Progress, 4/10](https://progressvg.herokuapp.com/progress?p=4&m=10)
 ![Progress, 10/10](https://progressvg.herokuapp.com/progress?p=10&m=10)
 
 Progress bars as SVGs as a service. You can use this in GitHub issues:
